@@ -1,8 +1,8 @@
 langchain
 langchain-community
-langchain-pinecone
 langchain-google-genai
-langchain-mistralai
 fastapi
 uvicorn
 python-dotenv
+pymupdf
+faiss-cpu
