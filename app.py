@@ -43,7 +43,6 @@ async def run_hackrx(
 
         response = model_pipe.invoke({'retrieved_chunk': contexts,'questions_list': request.questions})
 
-        print({'answers': response.answers})
         
         return JSONResponse(content={'answers': response.answers},status_code=200)
 
